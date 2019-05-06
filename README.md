@@ -1,1 +1,2 @@
-# My Project's README
+# Gradient Descent and Breast Cancer Predictions 
+Overview: This was an assignment for my Machine Learning class, where we were tasked with writing the code for calculating stochastic gradient descent from scratch and using it as part of a logistic regression algorithm. In this script, I define the class HawrylukLogisticRegression, which contains the logic for creating and fitting a logistic regression model. After this class, I have functions for running this model and plotting the results for predicting whether a beast cancer tumor is benign or malignant based based on it's size and texture.

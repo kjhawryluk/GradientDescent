@@ -177,6 +177,7 @@ def regress_mradius_and_mtexture():
 	# Get all combos of mradius and mtexture
 	x = np.linspace(df[c1].min(), df[c1].max(), 1000)
 	y = np.linspace(df[c2].min(), df[c2].max(), 1000)
+
 	xx, yy = np.meshgrid(x, y)
 	flatten_xx_and_yy = np.hstack((xx.ravel().reshape(-1, 1), yy.ravel().reshape(-1, 1)))
 
